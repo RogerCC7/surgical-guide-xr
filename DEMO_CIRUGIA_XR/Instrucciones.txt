@@ -1,0 +1,31 @@
+=== INSTRUCCIONES DEMO CIRUGIA XR ===
+
+REQUISITOS:
+- Python instalado
+- Meta Quest 3 conectadas al mismo Wi-Fi que el PC
+
+PASOS:
+
+1. ENCONTRAR TU IP:
+   - Abre CMD y escribe: ipconfig
+   - Anota tu "Dirección IPv4" (ejemplo: 192.168.1.XX)
+
+2. INICIAR SERVIDOR:
+   - Doble click en INICIAR_SERVIDOR.bat
+   - Espera hasta ver: "✅ Servidor listo. Esperando conexión..."
+
+3. CONFIGURAR UNITY:
+   - Abre el proyecto SurgicalGuide en Unity
+   - En Hierarchy selecciona "lightGlueManager"
+   - En Inspector cambia "Pc Ip Address" por tu IP del paso 1
+   - Dale Play
+
+4. EN LAS META QUEST 3:
+   - Conectate al mismo Wi-Fi que el PC
+   - Abre la app desde Origenes Desconocidos
+   - Apunta al hueso y el sistema detectara automaticamente
+
+ARCHIVOS NECESARIOS EN EL MISMO PC:
+- lightglue_server.py
+- INICIAR_SERVIDOR.bat  
+- carpeta "referencias" con las dos fotos del hueso

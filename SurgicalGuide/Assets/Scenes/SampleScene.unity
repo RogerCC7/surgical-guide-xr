@@ -149,7 +149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modelAsset: {fileID: 5022602860645237092, guid: 4ba0ce41e6dd5fb4db2b88a5e069d8c2, type: 3}
-  bone: {fileID: 1918320533}
   femur3D: {fileID: 1918320533}
 --- !u!4 &186719682
 Transform:
@@ -365,11 +364,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee96a96abcbdbf428eed2aad825944a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hueso_tumor: {fileID: 1918320533}
-  hueso_donante: {fileID: 1918320533}
   pc_ip_address: 192.168.1.161
   port: 65432
-  cameraDisplay: {fileID: 1261413031}
+  hueso_tumor: {fileID: 1918320533}
+  hueso_donante: {fileID: 1918320533}
+  ar_camera: {fileID: 963194227}
+  camera_display: {fileID: 1261413031}
 --- !u!4 &817800479
 Transform:
   m_ObjectHideFlags: 0
@@ -511,7 +511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.000046, y: 0}
+  m_AnchoredPosition: {x: -10.0000305, y: 0}
   m_SizeDelta: {x: 1540, y: 712}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261413031
